@@ -359,7 +359,7 @@ int ATprotocol::send_data_to_client(string msg_str, Clients* client){
 
 	eat_sleep(10);
 
-	DEBUG_ATC("<%s> pump wifi clients ptr: %x, used cli: %x, cli con_id: %d"
+	DEBUG_ATC("<%s> wifi clients ptr: %x, used cli: %x, cli con_id: %d"
 			,__FUNCTION__, client, cli, cli->conn_id);
 
 	stringstream sstr;
